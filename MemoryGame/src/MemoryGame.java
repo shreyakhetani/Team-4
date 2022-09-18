@@ -13,18 +13,13 @@ public class MemoryGame {
         int guesses = 0;
 
         for (int number : numbers) {
-
             System.out.print(number + " ");
-
         }
 
         try {
-
-            Thread.sleep(1000);
+            Thread.sleep(4000);
         } catch (InterruptedException exception) {
-
             Thread.currentThread().interrupt();
-
         }
 
         System.out.println("");
